@@ -207,7 +207,7 @@ export default function Home() {
                 and consistency with the help of our experienced team.
               </p>
               <Link
-                href="/products"
+                to="/products"
                 class="px-5  py-2 mt-6 text-sm font-medium leading-5 text-center text-white capitalize bg-yellow-600 rounded-lg hover:bg-yellow-500 lg:mx-0 lg:w-auto focus:outline-none"
               >
                 Our products

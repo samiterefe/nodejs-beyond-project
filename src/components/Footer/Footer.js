@@ -10,11 +10,11 @@ export default function Footer() {
           <div className="lg:w-1/3">
             <a
               rel="noopener noreferrer"
-              href="#"
+              to="#"
               className="flex justify-center space-x-3 lg:justify-start"
             >
               <div className="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400">
-                <Image alt="Logo" src={Logo} className="" />
+                <img alt="Logo" src={Logo} className="" />
               </div>
               <span className="self-center text-2xl font-semibold">
                 Beyond fruits
@@ -28,22 +28,22 @@ export default function Footer() {
               </h3>
               {/* <ul className="space-y-1">
                 <li>
-                  <Link rel="noopener noreferrer" href="/products">
+                  <Link rel="noopener noreferrer" to="/products">
                     Green banana powder
                   </Link>
                 </li>
                 <li>
-                  <Link rel="noopener noreferrer" href="/products">
+                  <Link rel="noopener noreferrer" to="/products">
                     Ripe banana powder
                   </Link>
                 </li>
                 <li>
-                  <Link rel="noopener noreferrer" href="/products">
+                  <Link rel="noopener noreferrer" to="/products">
                     Banana chips
                   </Link>
                 </li>
                 <li>
-                  <Link rel="noopener noreferrer" href="/products">
+                  <Link rel="noopener noreferrer" to="/products">
                     Dried mango
                   </Link>
                 </li>
@@ -55,12 +55,12 @@ export default function Footer() {
               </h3>
               <ul className="space-y-1">
                 <li>
-                  <Link rel="noopener noreferrer" href="/about">
+                  <Link rel="noopener noreferrer" to="/about">
                     Vision
                   </Link>
                 </li>
                 <li>
-                  <Link rel="noopener noreferrer" href="/about">
+                  <Link rel="noopener noreferrer" to="/about">
                     Mission
                   </Link>
                 </li>
@@ -70,17 +70,17 @@ export default function Footer() {
               <h3 className="uppercase dark:text-gray-50">Contact us</h3>
               <ul className="space-y-1">
                 <li>
-                  <Link rel="noopener noreferrer" href="/contact">
+                  <Link rel="noopener noreferrer" to="/contact">
                     Google Map
                   </Link>
                 </li>
                 <li>
-                  <Link rel="noopener noreferrer" href="/contact">
+                  <Link rel="noopener noreferrer" to="/contact">
                     Office Address
                   </Link>
                 </li>
                 <li>
-                  <Link rel="noopener noreferrer" href="/contact">
+                  <Link rel="noopener noreferrer" to="/contact">
                     Email Address
                   </Link>
                 </li>
@@ -91,7 +91,7 @@ export default function Footer() {
               <div className="flex justify-start space-x-3">
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  to="#"
                   title="Facebook"
                   className="flex items-center p-1"
                 >
@@ -106,7 +106,7 @@ export default function Footer() {
                 </a>
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  to="#"
                   title="Twitter"
                   className="flex items-center p-1"
                 >
@@ -120,7 +120,7 @@ export default function Footer() {
                 </a>
                 <a
                   rel="noopener noreferrer"
-                  href="#"
+                  to="#"
                   title="Instagram"
                   className="flex items-center p-1"
                 >

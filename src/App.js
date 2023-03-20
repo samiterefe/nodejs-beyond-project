@@ -6,6 +6,7 @@ import Products from "./components/products/Product";
 import Contact from "./components/contact/Contact";
 import ScrollToTop from "./components/ScrollTop";
 import React from "react";
+import NotFound from "./components/notfound/NoteFound";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="products" element={<Products />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>
