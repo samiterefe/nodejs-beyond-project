@@ -7,6 +7,7 @@ import Contact from "./components/contact/Contact";
 import ScrollToTop from "./components/ScrollTop";
 import React from "react";
 import NotFound from "./components/notfound/NoteFound";
+import { Nav } from "./components/navbar/Navbar2";
 
 function App() {
   return (

@@ -23,10 +23,10 @@ export default function Navbar() {
           aria-label="Global"
         >
           <div className="flex lg:flex-1 ">
-            <a href="/" className="-m-1.5 p-1.5">
+            <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Beyond-fruits </span>
               <img className="h-16 w-16" src={Logo} alt="" />
-            </a>
+            </Link>
           </div>
           <div className="flex lg:hidden">
             <button

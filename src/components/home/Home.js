@@ -23,7 +23,7 @@ export default function Home() {
   }, []);
   return (
     <>
-      <div className="isolate bg-white ">
+      <div className="isolate bg-white  ">
         <main>
           <div
             id="carouselExampleControls"
@@ -32,7 +32,7 @@ export default function Home() {
             data-te-carousel-slide
             interval="1000"
           >
-            <div class="relative  w-full   overflow-hidden after:clear-both after:block after:content-['']">
+            <div class="relative  w-full h-full   overflow-hidden after:clear-both after:block after:content-['']">
               <div
                 class="relative h-full   float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
                 data-te-carousel-item
@@ -126,12 +126,12 @@ export default function Home() {
             </button>
           </div>
           <div
-            class="absolute inset-x-[15%] lg:-mt-[48rem]  md:-mt-[40rem]  sm:-mt-[32rem] -mt-[24rem]  md:-mt-[48rem] py-5 text-center text-white "
+            class="absolute inset-x-[15%] lg:-mt-[48rem]  md:-mt-[40rem]  sm:-mt-[32rem] -mt-[20rem]  md:-mt-[48rem] py-5 text-center text-white "
             data-aos="zoom-in"
             data-aos-duration="2000"
           >
-            <div class="relative px-6 lg:px-8">
-              <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+            <div class="relative px-6 lg:px-8 ">
+              <div class="mx-auto max-w-2xl py-32 md:py-80 sm:py-48 lg:py-56">
                 <div class="hidden sm:mb-8 sm:flex sm:justify-center">
                   <div class="relative rounded-full py-1 px-3 text-sm hidden md:block leading-6 text-white-600 ring-1 ring-white hover:ring-white-900/20">
                     Our priority is customer satisfaction{" "}
@@ -142,22 +142,22 @@ export default function Home() {
                   </div>
                 </div>
                 <div class="text-center">
-                  <h1 class="text-3xl  font-bold tracking-tight text-white-900 md:text-5xl lg:text-6xl sm:text-4xl">
+                  <h1 class="text-3xl    font-bold tracking-tight text-white-900 md:text-5xl lg:text-6xl sm:text-4xl">
                     Delivering organic powders
                   </h1>
                   <p class="mt-6 text-lg leading-8 hidden lg:block text-white-600">
                     For a healthy, balanced,accessible and affordable lifestyle.
                   </p>
-                  <div class="mt-10 flex items-center justify-center gap-x-6">
+                  <div class="pt-4 pb-4 flex items-center justify-center md:gap-x-6 gap-x-2">
                     <Link
-                      href="/products"
-                      class="rounded-md bg-yellow-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-600"
+                      to="/products"
+                      class="rounded-md bg-yellow-600 px-4 px-3.5 py-2.5  text-xs md:text-sm font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-600"
                     >
                       Our products
                     </Link>
                     <Link
                       href="/contact"
-                      class="items-center block  lg:px-8 px-3.5 py-2.5 text-sm font-medium text-center text-white transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+                      class="items-center block  lg:px-8 px-3.5 py-2.5 md:text-sm text-xs font-medium text-center text-white transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
                     >
                       Contact us
                     </Link>
