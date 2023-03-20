@@ -1,5 +1,5 @@
 import Navbar from "../navbar/Navbar";
-
+import Footer from "../layouts/Footer";
 import product1 from "../../img/product1.png";
 import product2 from "../../img/product2.jpg";
 import product3 from "../../img/product3.jpg";
@@ -269,6 +269,7 @@ export default function Products() {
             </div>
           </div>
         </main>
+        <Footer />
       </div>
     </>
   );
