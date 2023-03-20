@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/home/Home";
 import Products from "./components/products/Product";
 import Contact from "./components/contact/Contact";
+import ScrollToTop from "./components/ScrollTop";
 import React from "react";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
