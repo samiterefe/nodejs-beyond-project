@@ -17,7 +17,7 @@ export default function Services() {
           <div className="flex flex-col lg:flex-row">
             <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
               <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                Our priority is
+                Our priority is&nbsp;
                 <br className="hidden md:block" />
                 customer{" "}
                 <span className="inline-block text-yellow-400">

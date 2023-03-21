@@ -5,7 +5,7 @@ import Logo from "../../img/logoo.jpg";
 export default function Footer() {
   return (
     <>
-      <footer className="px-4 divide-y dark:bg-gray-800 dark:text-gray-100">
+      <footer className="px-4 divide-y ">
         <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
           <div className="lg:w-1/3">
             <a
@@ -13,7 +13,7 @@ export default function Footer() {
               to="#"
               className="flex justify-center space-x-3 lg:justify-start"
             >
-              <div className="flex items-center justify-center w-12 h-12 rounded-full dark:bg-violet-400">
+              <div className="flex items-center justify-center w-12 h-12 rounded-full ">
                 <img alt="Logo" src={Logo} className="" />
               </div>
               <span className="self-center text-2xl font-semibold">
@@ -23,9 +23,7 @@ export default function Footer() {
           </div>
           <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
             <div className="space-y-3">
-              <h3 className="tracking-wide uppercase dark:text-gray-50">
-                Product
-              </h3>
+              <h3 className="tracking-wide uppercase ">Product</h3>
               {/* <ul className="space-y-1">
                 <li>
                   <Link rel="noopener noreferrer" to="/products">
@@ -50,9 +48,7 @@ export default function Footer() {
               </ul> */}
             </div>
             <div className="space-y-3">
-              <h3 className="tracking-wide uppercase dark:text-gray-50">
-                About
-              </h3>
+              <h3 className="tracking-wide uppercase ">About</h3>
               <ul className="space-y-1">
                 <li>
                   <Link rel="noopener noreferrer" to="/about">
@@ -67,7 +63,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className="space-y-3">
-              <h3 className="uppercase dark:text-gray-50">Contact us</h3>
+              <h3 className="uppercase ">Contact us</h3>
               <ul className="space-y-1">
                 <li>
                   <Link rel="noopener noreferrer" to="/contact">
@@ -87,7 +83,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className="space-y-3">
-              <div className="uppercase dark:text-gray-50">Social media</div>
+              <div className="uppercase ">Social media</div>
               <div className="flex justify-start space-x-3">
                 <a
                   rel="noopener noreferrer"
@@ -137,8 +133,8 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="py-6 text-sm text-center dark:text-gray-400">
-          © 1968 Company Co. All rights reserved.
+        <div className="py-6 text-sm text-center ">
+          © 2023 Company Co. All rights reserved.
         </div>
       </footer>
     </>

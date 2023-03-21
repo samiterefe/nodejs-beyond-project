@@ -40,7 +40,7 @@ export default function Home() {
               >
                 <img
                   src={banana1}
-                  class="block w-full  h-full w-full object-cover lg:h-[40rem] md:h-[32rem]  h-[32rem] filter sepia-96  w-full  brightness-50  "
+                  class="block w-full  h-full w-full object-cover lg:h-[40rem] md:h-[32rem]  h-[28rem] filter sepia-96  w-full  brightness-50  "
                   alt="Wild Landscape"
                   width={400}
                   height={700}
@@ -52,7 +52,7 @@ export default function Home() {
               >
                 <img
                   src={banana2}
-                  class="block w-full object-cover lg:h-[40rem] md:h-[32rem]  h-[32rem] h-full w-full  filter sepia-96   w-full  brightness-50 "
+                  class="block w-full object-cover lg:h-[40rem] md:h-[32rem]  h-[28rem] h-full w-full  filter sepia-96   w-full  brightness-50 "
                   alt="Camera"
                   width={400}
                   height={700}
@@ -64,7 +64,7 @@ export default function Home() {
               >
                 <img
                   src={banana3}
-                  class="block w-full object-cover lg:h-[40rem] md:h-[32rem]  h-[32rem] h-full w-full  filter sepia-96   w-full  brightness-50 "
+                  class="block w-full object-cover lg:h-[40rem] md:h-[32rem]  h-[28rem] h-full w-full  filter sepia-96   w-full  brightness-50 "
                   alt="Exotic Fruits"
                   width={400}
                   height={700}
@@ -141,7 +141,7 @@ export default function Home() {
                     </Link>
                   </div>
                 </div>
-                <div class="text-center pt-32 sm:pt-0">
+                <div class="text-center  sm:pt-0">
                   <h1 class="text-3xl    font-bold tracking-tight text-white-900 md:text-5xl lg:text-6xl sm:text-4xl">
                     Delivering organic powders
                   </h1>
