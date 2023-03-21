@@ -40,7 +40,7 @@ export default function Home() {
               >
                 <img
                   src={banana1}
-                  class="block w-full  h-full w-full object-cover lg:h-[40rem] md:h-[32rem]  h-[28rem] filter sepia-96  w-full  brightness-50  "
+                  class="block w-full  h-full w-full object-cover lg:h-[40rem] md:h-[32rem]  h-[32rem] filter sepia-96  w-full  brightness-50  "
                   alt="Wild Landscape"
                   width={400}
                   height={700}
@@ -52,7 +52,7 @@ export default function Home() {
               >
                 <img
                   src={banana2}
-                  class="block w-full object-cover lg:h-[40rem] md:h-[32rem]  h-[28rem] h-full w-full  filter sepia-96   w-full  brightness-50 "
+                  class="block w-full object-cover lg:h-[40rem] md:h-[32rem]  h-[32rem] h-full w-full  filter sepia-96   w-full  brightness-50 "
                   alt="Camera"
                   width={400}
                   height={700}
@@ -64,7 +64,7 @@ export default function Home() {
               >
                 <img
                   src={banana3}
-                  class="block w-full object-cover lg:h-[40rem] md:h-[32rem]  h-[28rem] h-full w-full  filter sepia-96   w-full  brightness-50 "
+                  class="block w-full object-cover lg:h-[40rem] md:h-[32rem]  h-[32rem] h-full w-full  filter sepia-96   w-full  brightness-50 "
                   alt="Exotic Fruits"
                   width={400}
                   height={700}
@@ -130,8 +130,8 @@ export default function Home() {
             data-aos="zoom-in"
             data-aos-duration="2000"
           >
-            <div class="relative px-6 lg:px-8 ">
-              <div class="mx-auto max-w-2xl py-32 md:py-80 sm:py-48 lg:py-56">
+            <div class="relative px-2 lg:px-8 ">
+              <div class="mx-auto max-w-2xl py-70 md:py-80 sm:py-48 lg:py-56">
                 <div class="hidden sm:mb-8 sm:flex sm:justify-center">
                   <div class="relative rounded-full py-1 px-3 text-sm hidden md:block leading-6 text-white-600 ring-1 ring-white hover:ring-white-900/20">
                     Our priority is customer satisfaction{" "}
