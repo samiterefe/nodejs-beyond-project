@@ -141,7 +141,7 @@ export default function Home() {
                     </Link>
                   </div>
                 </div>
-                <div class="text-center">
+                <div class="text-center pt-32 sm:pt-0">
                   <h1 class="text-3xl    font-bold tracking-tight text-white-900 md:text-5xl lg:text-6xl sm:text-4xl">
                     Delivering organic powders
                   </h1>
@@ -199,10 +199,10 @@ export default function Home() {
             class="container px-6 py-16 mx-auto text-center"
           >
             <div class="max-w-lg mx-auto">
-              <h1 class="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+              <h1 class="text-3xl font-semibold text-gray-800  lg:text-4xl">
                 Nutritious and healthy fruit products
               </h1>
-              <p class="mt-6 mb-4 text-gray-500 dark:text-gray-300">
+              <p class="mt-6 mb-4 text-gray-500 ">
                 We aim to deliver each of our prodcuts with quality, excellence
                 and consistency with the help of our experienced team.
               </p>

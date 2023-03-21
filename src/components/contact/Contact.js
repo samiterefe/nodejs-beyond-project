@@ -56,25 +56,23 @@ export default function Contact() {
   return (
     <>
       <div className=" isolate bg-white  ">
-        <section class="bg-white dark:bg-gray-900">
+        <section class="bg-white ">
           <div class="container px-6 py-12 mx-auto">
             <div class="text-center">
-              <p class="font-medium text-yellow-500 dark:text-yellow-400">
-                / contact us
-              </p>
+              <p class="font-medium text-yellow-500 ">/ contact us</p>
 
-              <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">
+              <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl ">
                 Contact Us
               </h1>
 
-              <p class="mt-3 text-gray-500 dark:text-gray-400">
+              <p class="mt-3 text-gray-500 ">
                 Our friendly team is always here to chat.
               </p>
             </div>
 
             <div class="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
               <div class="flex flex-col items-center justify-center text-center">
-                <span class="p-3 text-gray-500 rounded-full bg-yellow-100/80 dark:bg-gray-800">
+                <span class="p-3 text-gray-500 rounded-full bg-yellow-100/80 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -91,19 +89,15 @@ export default function Contact() {
                   </svg>
                 </span>
 
-                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
-                  Email
-                </h2>
-                <p class="mt-2 text-gray-500 dark:text-gray-400">
+                <h2 class="mt-4 text-lg font-medium text-gray-800 ">Email</h2>
+                <p class="mt-2 text-gray-500 ">
                   Our friendly team is here to help.
                 </p>
-                <p class="mt-2 text-gray-500 dark:text-yellow-400">
-                  info@beyondfooditems.com
-                </p>
+                <p class="mt-2 text-gray-500 ">info@beyondfooditems.com</p>
               </div>
 
               <div class="flex flex-col items-center justify-center text-center">
-                <span class="p-3 text-gray-500 rounded-full bg-yellow-100/80 dark:bg-gray-800">
+                <span class="p-3 text-gray-500 rounded-full bg-yellow-100/80 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -125,19 +119,15 @@ export default function Contact() {
                   </svg>
                 </span>
 
-                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
-                  Office
-                </h2>
-                <p class="mt-2 text-gray-500 dark:text-gray-400">
+                <h2 class="mt-4 text-lg font-medium text-gray-800 ">Office</h2>
+                <p class="mt-2 text-gray-500 ">
                   Come say hello at our office HQ.
                 </p>
-                <p class="mt-2 text-gray-500 dark:text-yellow-400">
-                  Bole Addis Ababa Ethiopia
-                </p>
+                <p class="mt-2 text-gray-500 ">Bole Addis Ababa Ethiopia</p>
               </div>
 
               <div class="flex flex-col items-center justify-center text-center">
-                <span class="p-3 text-gray-500 rounded-full bg-yellow-100/80 dark:bg-gray-800">
+                <span class="p-3 text-gray-500 rounded-full bg-yellow-100/80 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -154,15 +144,9 @@ export default function Contact() {
                   </svg>
                 </span>
 
-                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
-                  Phone
-                </h2>
-                <p class="mt-2 text-gray-500 dark:text-gray-400">
-                  Mon-sunday 24/7.
-                </p>
-                <p class="mt-2 text-gray-500 dark:text-yellow-400">
-                  +1 (251) 911242383
-                </p>
+                <h2 class="mt-4 text-lg font-medium text-gray-800 ">Phone</h2>
+                <p class="mt-2 text-gray-500 ">Mon-sunday 24/7.</p>
+                <p class="mt-2 text-gray-500 ">+1 (251) 911242383</p>
               </div>
             </div>
           </div>
@@ -170,41 +154,41 @@ export default function Contact() {
 
         <div className=" md:mx-32 ">
           <div class="py-6 lg:flex    md:py-0 lg:px-20">
-            <div class="w-full  px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
+            <div class="w-full  px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl  lg:max-w-xl shadow-gray-300/50 ">
               <h1 class="text-lg font-medium text-gray-700">
                 Send your inquiry
               </h1>
 
               <form class="mt-6" ref={form} onSubmit={sendEmail}>
                 <div class="flex-1">
-                  <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                  <label class="block mb-2 text-sm text-gray-600 ">
                     Full Name
                   </label>
                   <input
                     ref={nameRef}
-                    required
+                    requiyellow
                     type="text"
                     name="user_name"
                     placeholder="your name"
-                    class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-red-400 dark:focus:border-red-400 focus:ring-red-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                    class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md   focus:border-yellow-400  focus:ring-yellow-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   />
                 </div>
 
                 <div class="flex-1 mt-6">
-                  <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                  <label class="block mb-2 text-sm text-gray-600 ">
                     Email address
                   </label>
                   <input
                     ref={emailRef}
-                    required
+                    requiyellow
                     type="email"
                     name="user_email"
                     placeholder="yourmail@mail.com"
-                    class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-red-400 dark:focus:border-red-400 focus:ring-red-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                    class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md   focus:border-yellow-400  focus:ring-red-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   />
                 </div>
                 <div class="flex-1 mt-6">
-                  <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                  <label class="block mb-2 text-sm text-gray-600 ">
                     Phone Address
                   </label>
                   <input
@@ -213,11 +197,11 @@ export default function Contact() {
                     type="text"
                     name="phone_no"
                     placeholder="+XXXXXXXXXXXX"
-                    class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-red-400 dark:focus:border-red-400 focus:ring-red-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                    class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md   focus:border-red-400  focus:ring-red-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   />
                 </div>
                 <div class="flex-1 mt-6">
-                  <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                  <label class="block mb-2 text-sm text-gray-600 ">
                     Product Type
                   </label>
 
@@ -227,7 +211,7 @@ export default function Contact() {
                     ref={typeRef}
                     id="cars"
                     placeholder="product type"
-                    class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-red-400 dark:focus:border-red-400 focus:ring-red-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                    class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md   focus:border-red-400  focus:ring-red-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   >
                     <option value="Green banana powder">
                       Green banana powder
@@ -250,18 +234,18 @@ export default function Contact() {
                 </div>
 
                 <div class="w-full mt-6">
-                  <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                  <label class="block mb-2 text-sm text-gray-600 ">
                     Message
                   </label>
                   <textarea
                     ref={messageRef}
                     name="message"
-                    class="block w-full h- px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-32 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-red-400 dark:focus:border-red-400 focus:ring-red-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                    class="block w-full h- px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-32   focus:border-red-400  focus:ring-red-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     placeholder="Message"
                   ></textarea>
                 </div>
 
-                <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-red-500 rounded-md hover:bg-red-400 focus:outline-none focus:ring focus:ring-red-300 focus:ring-opacity-50">
+                <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-yellow-500 rounded-md hover:bg-yellow-400 focus:outline-none focus:ring focus:ring-yellow-300 focus:ring-opacity-50">
                   send message
                 </button>
               </form>
@@ -274,7 +258,7 @@ export default function Contact() {
             ></iframe>
           </div>
         </div>
-        <Transition appear show={isOpen} as={Fragment}>
+        {/* <Transition appear show={isOpen} as={Fragment}>
           <Dialog as="div" className="relative z-10" onClose={closeModal}>
             <Transition.Child
               as={Fragment}
@@ -327,7 +311,7 @@ export default function Contact() {
               </div>
             </div>
           </Dialog>
-        </Transition>
+        </Transition> */}
       </div>
       <Footer />
     </>

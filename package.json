@@ -1,5 +1,6 @@
 {
-  "name": "beyond-fruits",
+  "name": "beyond-foods",
+  "homepage": "https://beyondfooditems.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

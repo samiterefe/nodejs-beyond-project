@@ -8,7 +8,7 @@ export default function HomeContact() {
   }, []);
   return (
     <>
-      <section class="bg-white dark:bg-gray-900 p-12">
+      <section class="bg-white  p-12">
         <div class="container px-6 py-12 mx-auto">
           <div
             data-aos="fade-up"
@@ -16,15 +16,13 @@ export default function HomeContact() {
             data-aos-duration="1000"
             class="text-center"
           >
-            <p class="font-medium text-yellow-500 dark:text-yellow-400">
-              Contact us
-            </p>
+            <p class="font-medium text-yellow-500 ">Contact us</p>
 
-            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">
+            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl">
               Get in touch
             </h1>
 
-            <p class="mt-3 text-gray-500 dark:text-gray-400">
+            <p class="mt-3 text-gray-500 ">
               Our friendly team is always here to assist you 24/7
             </p>
           </div>
@@ -36,7 +34,7 @@ export default function HomeContact() {
               data-aos-duration="1000"
               class="flex flex-col items-center justify-center text-center"
             >
-              <span class="p-3 text-gray-500 rounded-full bg-yellow-100/80 dark:bg-gray-800">
+              <span class="p-3 text-gray-500 rounded-full bg-yellow-100/80 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -53,15 +51,11 @@ export default function HomeContact() {
                 </svg>
               </span>
 
-              <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
-                Email
-              </h2>
-              <p class="mt-2 text-gray-500 dark:text-gray-400">
+              <h2 class="mt-4 text-lg font-medium text-gray-800">Email</h2>
+              <p class="mt-2 text-gray-500 ">
                 Our friendly team is here to help.
               </p>
-              <p class="mt-2 text-gray-500 dark:text-yellow-400">
-                export@gmail.com
-              </p>
+              <p class="mt-2 text-gray-500 ">info@beyondfooditems.com</p>
             </div>
 
             <div
@@ -70,7 +64,7 @@ export default function HomeContact() {
               data-aos-duration="1000"
               class="flex flex-col items-center justify-center text-center"
             >
-              <span class="p-3 text-gray-500 rounded-full bg-yellow-100/80 dark:bg-gray-800">
+              <span class="p-3 text-gray-500 rounded-full bg-yellow-100/80 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -92,15 +86,11 @@ export default function HomeContact() {
                 </svg>
               </span>
 
-              <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
-                Office
-              </h2>
-              <p class="mt-2 text-gray-500 dark:text-gray-400">
+              <h2 class="mt-4 text-lg font-medium text-gray-800">Office</h2>
+              <p class="mt-2 text-gray-500 ">
                 Come say hello at our office HQ.
               </p>
-              <p class="mt-2 text-gray-500 dark:text-yellow-400">
-                Addis Ababa, Ethiopia
-              </p>
+              <p class="mt-2 text-gray-500 ">Bole, Addis Ababa, Ethiopia</p>
             </div>
 
             <div
@@ -109,7 +99,7 @@ export default function HomeContact() {
               data-aos-duration="1000"
               class="flex flex-col items-center justify-center text-center"
             >
-              <span class="p-3 text-gray-500 rounded-full bg-yellow-100/80 dark:bg-gray-800">
+              <span class="p-3 text-gray-500 rounded-full bg-yellow-100/80 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -126,15 +116,9 @@ export default function HomeContact() {
                 </svg>
               </span>
 
-              <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
-                Phone
-              </h2>
-              <p class="mt-2 text-gray-500 dark:text-gray-400">
-                Mon-Fri from 8am to 5pm.
-              </p>
-              <p class="mt-2 text-gray-500 dark:text-yellow-400">
-                +1 (555) 000-0000
-              </p>
+              <h2 class="mt-4 text-lg font-medium text-gray-800">Phone</h2>
+              <p class="mt-2 text-gray-500 ">Mon-Fri from 8am to 5pm.</p>
+              <p class="mt-2 text-gray-500 ">+1 (2519) 911242383</p>
             </div>
           </div>
         </div>
