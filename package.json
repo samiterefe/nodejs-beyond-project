@@ -1,5 +1,5 @@
 {
-  "name": "beyond-foods",
+  "name": "beyond-food items",
   "homepage": "https://beyondfooditems.com/",
   "version": "0.1.0",
   "private": true,
@@ -45,6 +45,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7"
+    "tailwindcss": "^3.2.7",
+    "webpack": "^5.76.3"
   }
 }
