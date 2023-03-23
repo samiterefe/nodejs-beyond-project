@@ -146,7 +146,7 @@ export default function Contact() {
 
                 <h2 class="mt-4 text-lg font-medium text-gray-800 ">Phone</h2>
                 <p class="mt-2 text-gray-500 ">Mon-sunday 24/7.</p>
-                <p class="mt-2 text-gray-500 ">+1 (251) 911242383</p>
+                <p class="mt-2 text-gray-500 ">+251 911 24 23 83</p>
               </div>
             </div>
           </div>

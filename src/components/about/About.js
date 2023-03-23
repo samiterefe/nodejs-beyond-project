@@ -26,7 +26,7 @@ export default function About() {
               About us
             </h1>
 
-            <p class="mt-3 text-gray-500 dark:text-gray-400">
+            <p class="mt-3 px-8 text-gray-500 dark:text-gray-400">
               We believe in a healthy diet and a healthy planet
             </p>
           </div>

@@ -118,7 +118,7 @@ export default function HomeContact() {
 
               <h2 class="mt-4 text-lg font-medium text-gray-800">Phone</h2>
               <p class="mt-2 text-gray-500 ">Mon-Fri from 8am to 5pm.</p>
-              <p class="mt-2 text-gray-500 ">+1 (2519) 911242383</p>
+              <p class="mt-2 text-gray-500 ">+251 911 24 23 83</p>
             </div>
           </div>
         </div>

@@ -162,7 +162,7 @@ export default function Home() {
                         Our products
                       </Link>
                       <Link
-                        href="/contact"
+                        to="/contact"
                         class="items-center md:block  lg:px-8 px-3.5 py-2.5 md:text-sm text-xs font-medium text-center text-white transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
                       >
                         Contact us
