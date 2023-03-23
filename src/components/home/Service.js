@@ -28,7 +28,7 @@ export default function Services() {
             </div>
             <div className="lg:w-1/2">
               <p className="mb-4 text-base text-gray-700">
-                Our products are composed of diffrent flavors, individually
+                Our products are composed of different flavors, individually
                 selected for their outstanding quality, taste and significant
                 health benefits. Each one of our products are powerful
                 nutrients.

@@ -24,7 +24,7 @@ export default function Navbar() {
         >
           <div className="flex lg:flex-1 ">
             <Link to="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">Beyond-fruits </span>
+              <span className="sr-only">Beyond food items</span>
               <img className="h-16 w-16" src={Logo} alt="" />
             </Link>
           </div>
@@ -35,7 +35,6 @@ export default function Navbar() {
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
-
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
@@ -52,12 +51,12 @@ export default function Navbar() {
           </div>
 
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            {/* <a
+            {/* <Link
               href="#"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               Contact us <span aria-hidden="true">&rarr;</span>
-            </a> */}
+            </Link> */}
             <Link
               to="/contact"
               className="cursor-pointer transition ease-in duration-200  py-2.5 px-3.5 text-white bg-yellow-600 hover:bg-yellow-700 rounded-md shadow"
@@ -69,23 +68,20 @@ export default function Navbar() {
         <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
             <div className="flex items-center justify-between">
-              <Link href="/" clLinkssName="-m-1.5 p-1.5">
-                <span className="sr-only"> Beyond fruits Company</span>
+              <Link to="/" className="-m-1.5 p-1.5">
+                <span className="sr-only">Beyond food items</span>
                 <img className="h-12 w-16" src={Logo} alt="" />
               </Link>
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"
-                onClick={() => setMobileMenuOpen(true)}
+                onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
                 <XMarkIcon className="h-6 w-6" aria-hidden="true" />
               </button>
             </div>
-            <div
-              className="mt-6 flow-root"
-              onClick={() => setMobileMenuOpen(false)}
-            >
+            <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
@@ -93,18 +89,20 @@ export default function Navbar() {
                       key={item.name}
                       to={item.to}
                       className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
+                      onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.name}
                     </Link>
                   ))}
                 </div>
                 <div className="py-6">
-                  <a
+                  <Link
                     to="/contact"
-                    className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
+                    className="cursor-pointer transition ease-in duration-200  py-2.5 px-3.5 text-white bg-yellow-600 hover:bg-yellow-700 rounded-md shadow"
+                    onClick={() => setMobileMenuOpen(false)}
                   >
-                    Contact us
-                  </a>
+                    Contact Us
+                  </Link>
                 </div>
               </div>
             </div>

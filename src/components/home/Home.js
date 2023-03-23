@@ -9,12 +9,13 @@ import Content from "./Content";
 import HomeContact from "./HomeContact";
 import Footer from "../layouts/Footer";
 import Services from "./Service";
+import Navbar from "../navbar/Navbar";
 
 import AOS from "aos";
 
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Navbar from "../navbar/Navbar";
+
 // const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {

@@ -13,16 +13,18 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="products" element={<Products />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <div className="isolate bg-white  ">
+          <Navbar />
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="products" element={<Products />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </div>
       </BrowserRouter>
     </div>
   );
