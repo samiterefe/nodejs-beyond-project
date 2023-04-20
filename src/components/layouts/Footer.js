@@ -31,28 +31,6 @@ export default function Footer() {
           <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
             <div className="space-y-3">
               <h3 className="tracking-wide uppercase ">Product</h3>
-              {/* <ul className="space-y-1">
-                <li>
-                  <Link rel="noopener noreferrer" href="/products">
-                    Green banana powder
-                  </Link>
-                </li>
-                <li>
-                  <Link rel="noopener noreferrer" href="/products">
-                    Ripe banana powder
-                  </Link>
-                </li>
-                <li>
-                  <Link rel="noopener noreferrer" href="/products">
-                    Banana chips
-                  </Link>
-                </li>
-                <li>
-                  <Link rel="noopener noreferrer" href="/products">
-                    Dried mango
-                  </Link>
-                </li>
-              </ul> */}
             </div>
             <div className="space-y-3">
               <h3 className="tracking-wide uppercase ">About</h3>
