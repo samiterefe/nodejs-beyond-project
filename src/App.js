@@ -8,6 +8,7 @@ import ScrollToTop from "./components/ScrollTop";
 import React from "react";
 import NotFound from "./components/notfound/NoteFound";
 import { Nav } from "./components/navbar/Navbar2";
+import Contact2 from "./components/contact/Contact2";
 
 function App() {
   return (
@@ -19,9 +20,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="products" element={<Products />} />
-            <Route path="contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/contact" element={<Contact2 />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

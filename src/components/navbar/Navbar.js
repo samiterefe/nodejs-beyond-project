@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="px-6 pt-6 lg:px-8 divide-y sticky  top-0 z-50 bg-white">
+      <div className="px-6 pt-2 lg:px-8 divide-y sticky  top-0 z-50 bg-white">
         <nav
           className="flex items-center  py-2 justify-between lg:mx-32  "
           aria-label="Global"
