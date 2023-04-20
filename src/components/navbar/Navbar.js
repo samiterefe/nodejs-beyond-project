@@ -51,12 +51,6 @@ export default function Navbar() {
           </div>
 
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            {/* <Link
-              href="#"
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              Contact us <span aria-hidden="true">&rarr;</span>
-            </Link> */}
             <Link
               to="/contact"
               className="cursor-pointer transition ease-in duration-200  py-2.5 px-3.5 text-white bg-yellow-600 hover:bg-yellow-700 rounded-md shadow"
